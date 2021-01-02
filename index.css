@@ -1,0 +1,219 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*_____________________________start navigtation___________________________*/
+
+#header .menubar .navbar{    
+    background-color:white;
+    box-shadow: -3px -3px 6px rgb(0, 0, 0);;
+}
+#header .menubar .navbar .nav-item .nav-link{
+    font-weight: 500;
+    padding-left:1rem;
+    padding-right:1rem;
+    color:black;
+}
+#header .menubar .navbar .nav-item .nav-link:hover{
+    color:red;
+}
+.image{
+    width:250px;
+    height:70px;
+}
+#header .menubar .navbar-brand{
+    font-size:13px;
+    color:grey;
+    font-style: italic;
+}
+/*_____________________________end navigation______________________________*/
+
+/*_________________________________start home___________________________*/
+#banner{
+    background-image: url("Image/the-polygon-1562743_1280.jpg");
+    background-image: no-repeat;
+    margin-top:8%;   
+}
+.cl1{
+    padding-top:10%;
+}
+.cl2{
+    padding-top:8%;
+    padding-bottom:8%;
+}
+/*________________________________end home______________________________*/
+/*______________________________start about______________________________*/
+.section-1{
+    padding:15vmin 0;
+    width: 100%;
+    height:auto;
+    background-color:gray;
+}
+.section-1 .row .col-md-6 .seo img{
+    opacity:0.8;
+    width:100%;
+    border-radius:0.2em;
+}
+/*___________________________________end about___________________________*/
+
+/*______________________________start network________________________________*/
+
+.cover{
+    width:100%;
+    height:40vmin;
+    background:url("Image/men-1979261_1920.jpg");
+    background-position:-24rem -19rem;
+    background-size:150%;
+    position:relative;
+}
+.cover .content{
+    background:rgba(0,0,0,0.7);
+    height:100%;
+    width:100%;
+    padding-top:10vmin;
+}
+.cover .content>h1{
+    font-size:6vmin;
+    color:whitesmoke;
+}
+.cover .content>p{
+    font-size:2vmin;
+    color:white;
+}
+.numbers .rect{
+    position: relative;
+    z-index:1;
+    background:white;
+    width:10rem;
+    height:8rem;
+    padding-top:2vmin;
+    margin:2rem;
+    border-radius:.5em;
+    box-shadow:1px 2px 50px 0px rgba(255,0,0,0.3);
+}
+.numbers{
+    margin-top:-15vmin;
+}
+.numbers .rect h5{
+    font-size: 2rem;
+    color:tomato;
+}
+/*___________________________________end network__________________________________*/
+
+/*__________________________________start service_________________________________*/
+#SERVICES{
+    margin-top:40px;   
+}
+.s-name h2{
+    text-align:center;
+    letter-spacing:0.1em;
+    font-weight:700;
+    margin:80px 0px 18px 0px;
+}
+.small-line{
+    border:0.5px solid red;
+    display:block;
+    margin:auto;
+    margin-bottom: 85px;
+    width:75px;
+}
+.ser-name h6{
+   letter-spacing: 0.1em;
+   
+   color: #030303;
+   padding:20px 5px 5px 5px;
+
+}
+.ser-box{
+    width:100% !important;
+    background-color:#efebeb87;
+    text-align: center;
+    padding:30px 0px 25px 0px;
+    margin-bottom: 60px;
+    box-shadow: 1px 2px 2px 0px rgba(51,52,54,0.2);
+}
+.ser-box p{
+    font-size: 12px;
+}
+.ser-box:hover{
+    border-bottom-right-radius: 4px;
+    box-shadow:0px 16px 22px 0px rgba(90,91,95,0.3);
+    top:-5px;
+}
+.ser-box img{
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+/*____________________________________ end service_____________________________________*/
+/*___________________________________client_____________________________________________*/
+
+#client{
+    background-color: gray;
+    width:100%;
+    height:auto;
+}
+
+.cm{
+   padding-top:8%;
+   padding-bottom:5%;
+}
+
+
+/*____________________________________end client_______________________________________*/
+
+/*____________________________________start client_review_________________________________*/
+#client .container h4{
+    font-size: 4.5vmin;
+    padding-top:5vmin;
+}
+
+#client .card .card-text{
+    padding:0.5em;
+}
+
+#client .container{
+    padding-bottom: 7vmin;
+}
+/*______________________________________end client_review___________________________________*/
+
+/*______________________________________start form__________________________________________*/
+#SEOform{
+    width:100%;
+    height:auto;
+}
+#SEOform .small-heading{
+ 
+        border:0.5px solid yellow;
+        display:block;
+        margin:auto;
+        margin-bottom: 20px;
+        width:75px;   
+}
+/*_________________________________________end form_________________________________________*/
+
+/*____________________________________________start footer___________________________________*/
+
+#seo_footer{
+    background-color: rgb(19, 17, 51);
+    padding-top:15px;
+    width:100%;
+    height:auto;
+    
+}
+#seo_footer .row .col-md-3 ul li{
+    font-size:14px;
+}
+#seo_footer .row .col-md-3 p{
+    font-size:14px;
+}
+.copyright p{
+    font-size:14px;
+    text-align: center;
+}
+/*_______________________________________________end footer___________________________________*/
